@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pain {
+    width: 100%;
+    height: 100vh;
+    background: url('../css/images/best\ wallpaper.jpg') no-repeat center /auto 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >span {
+        margin-top: 160px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        animation: bw 2s infinite linear;
+    }
+}
+
+@keyframes bw {
+    0% {color: white;  font-size: calc(16px + 1vw);}
+    50% {color: blue; font-size: calc(22px + 1vw);}
+    100% {color: white;  font-size: calc(16px + 1vw);}
+}
+

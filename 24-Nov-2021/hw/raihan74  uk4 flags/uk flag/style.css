@@ -1,0 +1,72 @@
+.main{
+    width: 400px;
+    height: 200px;
+    background: blue;
+    margin: 200px auto;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    border: solid black 1px;
+}
+.dw1{
+    width: 30px;
+    height: 500px;
+    background: white;
+    position: absolute;
+    margin: -150px 185px;
+    transform: rotate(65deg);
+}
+.dw2{
+    width: 30px;
+    height: 500px;
+    background: white;
+    position: absolute;
+    margin: -150px 185px;
+    transform: rotate(-65deg);
+}
+.dr1{
+    width: 10px;
+    height: 500px;
+    background: red;
+    position: absolute;
+    margin: -145px 185px;
+    transform: rotate(65deg);
+}
+.dr2{
+    width: 10px;
+    height: 500px;
+    background: red;
+    position: absolute;
+    margin: -155px 185px;
+    transform: rotate(-65deg);
+}
+
+.w1{
+    width: 400px;
+    height: 50px;
+    background: white;
+    margin: 75px auto;
+    position: absolute;
+}
+.w2{
+    width: 50px;
+    height: 200px;
+    background: white;
+    margin:  0px 175px ;
+    position: absolute;
+}
+
+.red1{
+    width: 400px;
+    height: 30px;
+    background: red;
+    margin: 85px auto;
+    position: absolute;
+}
+.red2{
+    width: 30px;
+    height: 200px;
+    background: red;
+    margin:  0px 185px ;
+    position: absolute;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+.tain{
+    width: 600px;
+    height: 300px;
+    background: yellow;
+    margin: 20px auto;
+    position: relative;
+}
+.tain > div {
+    width: 180px;
+    height: 300px;
+    position: absolute;
+    
+}
+ .tain > div:nth-child(1){
+    top: 0px;
+    left: 0px;
+    background: black;
+    
+ }
+ .tain > div:nth-child(2){
+    width: 180px;
+    height: 300px;
+    top: 0px;
+    right: 0px;
+    background: red;
+ }
+
+
+

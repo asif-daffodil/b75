@@ -1,0 +1,200 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+
+
+.ratul {
+    width: 1380px;
+    height: 350px;
+    background: url(./5d884ddc7d73cbc67cdd6a55419011f2.gif) no-repeat center center /100% auto; 
+    position: relative;
+}
+.ratul::after{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 1380px;
+    height: 350px;
+    border: 6px solid black;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    background: url(./3e790190420049.5e16dc1213c7a.gif)no-repeat center center;
+}
+
+
+.nav {
+    
+    width: 1300px;
+    height: 400px;
+    margin: 20px 20px;
+    background:rgb(136, 224, 224);
+    box-shadow: 10px 10px 6px darkgray;
+    overflow: scroll;
+    list-style-position: inside;
+    list-style: none;
+    text-align: left;
+   
+    
+}
+.nav li {
+    width: 300px;
+    position: relative;
+    display: flex;
+}
+
+.mobiles {
+    background: rgb(8, 200, 226);
+    width: 600px;
+    position: absolute;
+    list-style-position: inside;
+    list-style: none;
+    text-align:center;
+    left: 100%;
+    top: 5%;
+    display: none; 
+    border: 6px solid gray;
+}
+.nav li:hover .mobiles {
+
+    display:block;
+    
+}
+.electron{
+    background: rgb(68, 139, 26);
+    width: 600px;
+    position: absolute;
+    list-style-position: inside;
+    list-style: none;
+    text-align:center;
+    left: 100%;
+    top: 5%;
+    display: none; 
+    border: 6px solid gray;
+}
+.nav li:hover .electron {
+
+    display:block;
+    
+}
+.Home{
+    background: rgb(68, 139, 26);
+    width: 600px;
+    position: absolute;
+    list-style-position: inside;
+    list-style: none;
+    text-align:center;
+    left: 100%;
+    top: 10%;
+    display: none; 
+    border: 6px solid gray;
+}
+.nav li:hover .Home {
+    display:block;   
+}
+
+.phones li {
+    background: url(./image.jfif) no-repeat center center /100% auto;
+    width: 300px;
+    height: 200px;
+    border: 6px solid black;
+    left: 150px;
+    top: 5%;
+    display: block;
+    
+}
+
+.phones li:hover{
+    display: none;
+}
+.phn li {
+    background: url(./DSCF6959.jpg) no-repeat center center /100% auto;
+    width: 300px;
+    height: 200px;
+    border: 6px solid black;
+    left: 204px;
+    top: 5%;
+    display: block;
+}
+
+.phn li:hover{
+    
+    display: none;
+}
+.tttt li {
+    background: url(./Vivo-V20.jpg) no-repeat center center /100% auto;
+    width: 300px;
+    height: 200px;
+    border: 6px solid black;
+    left: 212px;
+    top: 5%;
+    display: block;
+}
+
+.tttt li:hover{
+      display: none;
+}
+.kkkk li {
+    background: url(./iphone__btp62hy2cbea_og.png) no-repeat center center /100% auto;
+    width: 300px;
+    height: 200px;
+    border: 6px solid black;
+    left: 175px;
+    top: 5%;
+    display: block;
+}
+
+.kkkk li:hover{
+      display: none;
+}
+.mmmm li {
+    background: url(./oneplus-9-pro-1.jpg) no-repeat center center /100% auto;
+    width: 300px;
+    height: 200px;
+    border: 6px solid black;
+    left: 195px;
+    top: 5%;
+    display: block;
+}
+
+.mmmm li:hover{
+      display: none;
+}
+
+.nav li::before{
+content:'';
+width: 100%;
+height: 6px;
+background: lightcoral;
+bottom: 0;
+left: 0;
+position: absolute;
+display:none;
+
+}
+
+
+.nav li a {
+    text-decoration: none;
+    color:#4d2600;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    text-shadow: 2px 2px 5px rgb(6, 7, 4) ;
+    display: block;
+}
+
+.nav li:hover{
+    background: rgb(107, 179, 179);
+    
+}
+
+.nav li:hover::before{
+display: block;
+
+}

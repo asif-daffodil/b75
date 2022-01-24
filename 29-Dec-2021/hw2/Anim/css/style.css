@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Corinthia&family=Nunito:wght@200;300;400;600;700&family=Oswald:wght@300&family=Poppins:wght@200;300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    min-height: 100vh;
+    background: #003049;
+    display: flex;
+    padding: 10%; margin: auto;
+   
+    
+
+}
+.box{
+    
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 4px;
+}
+.box::before{
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 140%;
+    background: linear-gradient(#00ccff, #d400d4);
+    animation: anim1 4s linear infinite;
+}
+.box::after{
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: #003049;
+    border-radius: 6px;
+
+}
+@keyframes anim1{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+.box h2{
+    position: relative;
+    color: #ffff;
+    font-size: 10em;
+    z-index: 10;
+
+}
+
+.box2{
+    margin-left: 20px;
+    position: relative;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* background: rgba(0, 0, 0, 0.5); */
+    overflow: hidden;
+    border-radius: 4px;
+    transition: .6s;
+}
+
+.box2::before{
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 230%;
+    background: linear-gradient(#00ccff, #d400d4);
+    animation: anim2 4s  ease-in-out infinite;
+}
+.box2::after{
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: #003049; 
+    border-radius: 6px;
+    
+}
+
+@keyframes anim2{
+    0%{
+        transform: rotate(360deg)
+    }
+    100%{
+        transform:rotate(0);
+    }
+
+}
+.box2 h2 {
+    position: relative;
+    color: #ffff;
+    font-size: 4em;
+    z-index: 10;
+    transition: .5s;
+}
+
+

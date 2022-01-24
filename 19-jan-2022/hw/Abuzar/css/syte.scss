@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Corinthia&family=Nunito:wght@200;300;400;600;700&family=Oswald:wght@300&family=Poppins:wght@200;300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel-caption{
+    background: rgb(0, 0, 0, 0.3);
+  
+}
+.carousel-item{
+    .carousel-control-next, .carousel-control-prev{
+        &:hover{
+            background: rgb(0, 0, 0, 0.3);
+        }
+    }
+}
+
+

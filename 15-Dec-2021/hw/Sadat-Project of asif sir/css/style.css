@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #1d2e41;
+}
+
+body .container {
+  width: 620px;
+  height: 1998px;
+  margin: auto;
+}
+
+body .container > .heading-top {
+  width: 100%;
+  line-height: 32px;
+  background: #283b46;
+  font-size: 11px;
+}
+/*# sourceMappingURL=style.css.map */

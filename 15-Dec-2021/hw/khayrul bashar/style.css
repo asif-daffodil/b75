@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: ar;
+    src: url('../fonts/arial.ttf');
+}
+body{
+    background: rgb(26, 62, 63);
+    .container{
+        width: 620px;
+        height: 1998px;
+        margin: auto;
+        >.heading{
+
+        }
+        >main-heading{
+            background:rgb(111, 140, 192)
+            display: grid;
+            grid-template-columns: auto auto;
+            >.right{
+                text-align: right;
+                font-size: 16px;
+                color: darkgrey;
+            }
+
+        }
+        >.heading{
+            width: 100%;
+            line-height: 32px;
+            background: rgb(45, 56, 56);
+            font-size: 11px;
+            color: rgb(149, 170, 209);
+            font-family: ar;
+            display: grid;
+            grid-template-columns: auto auto;
+            padding: 0 20px;
+            >.right{
+                text-align: right;
+                >i{
+                    margin-left: 12px;
+                    margin-right: 6px;
+                }
+            }
+        }
+      
+
+    }
+}

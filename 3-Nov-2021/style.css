@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dhaka{
+    color: green;
+    font-size: 22px;
+    width: 600px;
+    background: yellow;
+    padding: 20px;
+    margin: auto;
+    text-align: justify;
+}
+
+.kaka {
+    width: 600px;
+    height: 200px;
+    background: cornflowerblue;
+    /* margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px; 
+    margin: 30px 20px 30px 20px; 
+    margin: 30px auto; */
+    /* padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px; 
+    padding: 20px 30px 40px 50px; 
+    padding: 20px 30px; */
+    padding: 20px;
+    margin: auto;
+    margin-top: -20px;
+    overflow: hidden;
+}
+
+.main {
+    width: 300px;
+    height: 200px;
+    background: green;
+    margin: 20px auto;
+    display: flex;
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: black; 
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black; */
+    border: 1px solid black;
+}
+
+.main:hover {
+    background: white;
+}
+
+.rain {
+    width: 120px;
+    height: 120px;
+    background: red;
+    margin: auto;
+    border-radius: 50%;
+}

@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #252525;
+}
+
+body .container {
+  background: #e7e7e8;
+  height: 2215px;
+  width: 800px;
+  margin: auto;
+}
+
+body .container > .head1 {
+  width: 100%;
+  line-height: 30px;
+  background: #f5f6f6;
+  font-size: 11px;
+  color: #8c8b89;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  border-bottom: 1px solid #c9caca;
+}
+
+body .container > .head1 > .left {
+  margin-left: 85px;
+}
+
+body .container > .head1 > .left > span {
+  text-decoration: underline;
+  color: #1288bd;
+}
+
+body .container > .head1 > .right {
+  text-align: center;
+}
+
+body .container > .head1 > .right > span {
+  margin-right: 28px;
+  margin-left: 28px;
+}
+
+body .container > .head2 {
+  height: 102px;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+body .container > .head2 > .left {
+  margin-left: 85px;
+}
+
+body .container > .head2 > .left > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #0d7eb4;
+  margin-top: 30px;
+}
+
+body .container > .head2 > .left > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: #8c8b89;
+}
+
+body .container > .head2 > .right {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #8c8b89;
+  text-align: right;
+  margin-top: 30px;
+  margin-right: 90px;
+}
+
+body .container .main {
+  height: 1946px;
+  width: 624px;
+  background: #fefefe;
+  border-radius: 20px;
+  margin: auto;
+}
+
+body .container .main > .top1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 36px;
+}
+
+body .container .main > .top2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 45px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#ececec));
+  background: linear-gradient(#fefefe, #ececec);
+}
+
+body .container .main > .mid1 {
+  width: 100%;
+  height: 420px;
+  background: #fdfdfd;
+  border-bottom: 1px solid #bababa;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+body .container .main > .mid1 > .left {
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+body .container .main > .mid1 > .left > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #484848;
+  margin-top: 160px;
+}
+
+body .container .main > .mid1 > .left > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #bcbcbc;
+  margin-top: 20px;
+}
+
+body .container .main > .mid1 > .left > a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #0881b4;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+body .container .main > .mid1 > .right {
+  padding-top: 100px;
+}
+
+body .container .main > .mid2 {
+  width: 100%;
+  height: 400px;
+  background: #f3f5f5;
+  border-bottom: 1px solid #bababa;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+body .container .main > .mid2 > .left {
+  padding-top: 18px;
+}
+
+body .container .main > .mid2 > .right {
+  padding-left: 60px;
+  padding-right: 50px;
+}
+
+body .container .main > .mid2 > .right > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #484848;
+  margin-top: 126px;
+}
+
+body .container .main > .mid2 > .right > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #bcbcbc;
+  margin-top: 20px;
+}
+
+body .container .main > .mid2 > .right > a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #0881b4;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+body .container .main > .mid3 {
+  width: 100%;
+  height: 435px;
+  background: #fdfdfd;
+  border-bottom: 1px solid #bababa;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+body .container .main > .mid3 > .left {
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+body .container .main > .mid3 > .left > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #484848;
+  margin-top: 150px;
+}
+
+body .container .main > .mid3 > .left > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #bcbcbc;
+  margin-top: 20px;
+}
+
+body .container .main > .mid3 > .left > a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #0881b4;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+body .container .main > .mid3 > .right {
+  padding-top: 42px;
+}
+
+body .container .main > .mid4 {
+  width: 100%;
+  height: 260px;
+  background: #f3f5f5;
+  padding: 44px 20px 0px 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+body .container .main > .mid4 > div {
+  border-right: 1px solid #e2e0e0;
+  padding: 19px 0 0 19px;
+  text-align: center;
+}
+
+body .container .main > .mid4 > div img {
+  margin: auto;
+  display: block;
+}
+
+body .container .main > .mid4 > div > h2 {
+  margin-top: 30px;
+  color: #484848;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+body .container .main > .mid4 > div > p {
+  margin-top: 15px;
+  color: #bcbcbc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+body .container .main > .mid4 > div > a {
+  margin-top: 15px;
+  color: #0881b4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+body .container > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #a2a2a3;
+  text-align: center;
+  margin-top: 42px;
+}
+/*# sourceMappingURL=style.css.map */

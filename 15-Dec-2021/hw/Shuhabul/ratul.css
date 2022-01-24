@@ -1,0 +1,449 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Logos {
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+.Logos > .icon {
+  width: 250px;
+  height: 200px;
+  background: url(./favpng_logo-house-clip-art.png) no-repeat center center/auto 100%;
+  position: relative;
+  display: flex;
+}
+.Logos > .icon > .text {
+  width: 600px;
+  height: 100%;
+  position: absolute;
+  margin: 30px 250px;
+  font-size: 60px;
+  font-family: "Corinthia", cursive;
+  font-family: "Fuzzy Bubbles", cursive;
+  color: rgba(32, 24, 3, 0.835);
+  text-align: center;
+  font-weight: bold;
+}
+
+.pnggg {
+  width: 100%;
+  height: 987px;
+}
+.pnggg > .rasel {
+  width: 1200px;
+  height: 350px;
+  font-size: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(5, 32, 121, 0.835);
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+}
+.pnggg > .sojib {
+  width: 1200px;
+  height: 280px;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #661b02;
+  text-align: justify;
+  font-weight: bold;
+  padding: 20px 30px;
+}
+.pnggg > .labib {
+  width: 900px;
+  height: 300px;
+}
+.pnggg > .sagor {
+  width: 1500px;
+  height: 200px;
+  font-size: 150px;
+  text-align: justify;
+  font-weight: bold;
+  padding: 20px 30px;
+}
+.pnggg > .hasem {
+  width: 1500px;
+  height: 1000px;
+  position: relative;
+  top: -1200px;
+  left: 60%;
+  background: url(./73328-hacker-password-security-vulnerability-free-download-png-hq.png) no-repeat center center/auto 100%;
+}
+
+.border1 {
+  width: 100%;
+  height: 200px;
+  border: 6px solid black;
+  background: gray;
+}
+
+.station2 {
+  width: 100%;
+  height: 1600px;
+  display: flex;
+}
+.station2 > .dhaka {
+  width: 1880px;
+  height: 1500px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  word-spacing: normal;
+  border: 7px solid gray;
+}
+.station2 > .dhaka > .purandhaka {
+  width: 1850px;
+  height: 80%;
+  background: url(./32741-5-gaming-computer-image.png) no-repeat center center/auto 100%;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+.station2 > .rajshahi {
+  top: 20px;
+  left: 150px;
+  width: 3000px;
+  height: 1500px;
+  position: relative;
+  display: flex;
+}
+.station2 > .rajshahi > .head2 {
+  margin: 20px 30px;
+  top: 150px;
+  right: 550px;
+  width: 2400px;
+  height: 1000px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  word-spacing: normal;
+  align-items: flex-end;
+  font-size: 80px;
+  position: absolute;
+}
+
+.headline1 {
+  text-transform: uppercase;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  word-spacing: normal;
+}
+
+.station3 {
+  width: 100%;
+  height: 1600px;
+  display: flex;
+}
+.station3 > .haka {
+  width: 1880px;
+  height: 1500px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  word-spacing: normal;
+  border: 7px solid gray;
+}
+.station3 > .haka > .tttaka {
+  width: 1850px;
+  height: 80%;
+  background: url(./1-video-camera-png-image.png) no-repeat center center/auto 100%;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+.station3 > .shahi {
+  top: 20px;
+  left: 150px;
+  width: 3000px;
+  height: 1500px;
+  position: relative;
+  display: flex;
+}
+.station3 > .shahi > .ourhead2 {
+  margin: 20px 30px;
+  top: 150px;
+  right: 550px;
+  width: 2400px;
+  height: 1000px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  word-spacing: normal;
+  align-items: flex-end;
+  font-size: 80px;
+  position: absolute;
+}
+
+.line1 {
+  text-transform: uppercase;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  word-spacing: normal;
+}
+
+.border22 {
+  width: 100%;
+  height: 200px;
+  border: 8px solid gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: start;
+  top: 10px;
+  padding: 40px 40px;
+  background: gray;
+}
+
+.akas {
+  width: 100%;
+  height: 2000px;
+  display: flex;
+}
+.akas > .grill {
+  width: 97%;
+  height: 97%;
+  margin: auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  position: relative;
+  grid-gap: 20px;
+}
+.akas > .grill > .main {
+  background: url(./icon/12-2-jacket-free-png-image.png) no-repeat center center/auto 100%;
+  text-align: end;
+  font-size: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  align-items: flex-end;
+  border: 7px solid gray;
+}
+.akas > .grill > .sain {
+  background: url(./icon/1000212-business-shirt-with-tie-emoji-free-photo-icon.png) no-repeat center center/auto 100%;
+  text-align: end;
+  font-size: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  align-items: flex-end;
+  border: 7px solid gray;
+}
+.akas > .grill > .cain {
+  background: url(./icon/1000221-tshirt-emoji-icon-download-free.png) no-repeat center center/auto 100%;
+  text-align: end;
+  font-size: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  align-items: flex-end;
+  border: 7px solid gray;
+}
+.akas > .grill > .oain {
+  background: url(./icon/22440-2-chocolate-bar-clipart.png) no-repeat center center/auto 100%;
+  text-align: end;
+  font-size: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  align-items: flex-end;
+  border: 7px solid gray;
+}
+.akas > .grill > .lain {
+  background: url(./icon/1000243-shaved-ice-emoji-free-photo-icon.png) no-repeat center center/auto 100%;
+  text-align: end;
+  font-size: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  align-items: flex-end;
+  border: 7px solid gray;
+}
+.akas > .grill > .tain {
+  background: url(./icon/22304-6-drink-clipart.png) no-repeat center center/auto 100%;
+  text-align: end;
+  font-size: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  align-items: flex-end;
+  border: 7px solid gray;
+}
+.akas > .grill > .wain {
+  background: url(./icon/1000181-gift-present-emoji-icon-free-photo.png) no-repeat center center/auto 100%;
+  text-align: end;
+  font-size: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  align-items: flex-end;
+  border: 7px solid gray;
+}
+.akas > .grill > .qain {
+  background: url(./icon/4-2-ac-png.png) no-repeat center center/auto 100%;
+  text-align: end;
+  font-size: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  align-items: flex-end;
+  border: 7px solid gray;
+}
+
+.border33 {
+  width: 100%;
+  height: 200px;
+  border: 8px solid gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: start;
+  top: 10px;
+  padding: 40px 40px;
+  background: gray;
+}
+
+.station8 {
+  width: 100%;
+  height: 1600px;
+  display: flex;
+}
+.station8 > .paka {
+  width: 1880px;
+  height: 1500px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  word-spacing: normal;
+  border: 7px solid gray;
+}
+.station8 > .paka > .Laka {
+  width: 1850px;
+  height: 80%;
+  background: url(./kisspng-web-development-web-developer-web-design-web-development-5afd6693228283.9811498415265563071414.jpg) no-repeat center center/auto 100%;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+.station8 > .shashi {
+  top: 20px;
+  left: 150px;
+  width: 3000px;
+  height: 1500px;
+  position: relative;
+  display: flex;
+}
+.station8 > .shashi > .ourhead4 {
+  margin: 20px 30px;
+  top: 150px;
+  right: 550px;
+  width: 2400px;
+  height: 1000px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  word-spacing: normal;
+  align-items: flex-end;
+  font-size: 80px;
+  position: absolute;
+}
+
+.line4 {
+  text-transform: uppercase;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  word-spacing: normal;
+}
+
+.border88 {
+  width: 100%;
+  height: 200px;
+  border: 8px solid gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: start;
+  top: 10px;
+  padding: 40px 40px;
+  background: gray;
+}
+
+.lastpart1 {
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 20px;
+}
+.lastpart1 > .rj {
+  background: url(./icon/58653-play-app-google-apple-store-free-download-png-hq.png) no-repeat center center/auto 100%;
+}
+.lastpart1 > .sj {
+  background: url(./icon/141094-logo-circle-facebook-png-free-photo.png) no-repeat center center/auto 100%;
+}
+.lastpart1 > .dj {
+  background: url(./icon/62919-computer-network-icons-twitter-vector-design-graphics.png) no-repeat center center/auto 100%;
+}
+.lastpart1 > .pj {
+  background: url(./icon/64783-logo-computer-contact-email-icons-free-frame.png) no-repeat center center/auto 100%;
+}
+.lastpart1 > .kj {
+  background: url(./icon/kisspng-united-states-youtube-logo-youtube-play-button-transparent-png-5ab1be08946c16.888989591521597960608.png) no-repeat center center/auto 100%;
+}
+
+.Sborder8005 {
+  width: 100%;
+  height: 200px;
+  border: 8px solid gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: start;
+  top: 10px;
+  padding: 40px 40px;
+  background: gray;
+}
+
+.Ending {
+  width: 100%;
+  height: 800px;
+  display: flex;
+}
+.Ending > .parts1 {
+  width: 1600px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  font-size: 80px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  word-spacing: normal;
+}
+.Ending > .parts1 > .child {
+  width: 3000px;
+  height: 100%;
+  left: 2370px;
+  position: absolute;
+  font-size: 80px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  word-spacing: normal;
+}/*# sourceMappingURL=ratul.css.map */

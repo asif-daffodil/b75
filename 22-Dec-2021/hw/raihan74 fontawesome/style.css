@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main > nav {
+  width: 280px;
+  margin: auto;
+}
+
+.main > nav > .snav {
+  list-style: none;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.main > nav > .snav > li {
+  width: 40px;
+  margin: auto;
+  background: #ccc;
+  border-radius: 50%;
+}
+
+.main > nav > .snav > li > a {
+  text-decoration: none;
+  display: block;
+  line-height: 40px;
+  font-size: 20px;
+  color: white;
+}
+
+.main > nav > .snav > li:nth-child(1):hover {
+  background: #4367AB;
+}
+
+.main > nav > .snav > li:nth-child(2):hover {
+  background: #54A6DD;
+}
+
+.main > nav > .snav > li:nth-child(3):hover {
+  background: #FE0000;
+}
+
+.main > nav > .snav > li:nth-child(4):hover {
+  background: #006CBE;
+}
+
+.main > nav > .snav > li:nth-child(5):hover {
+  background: #C11B20;
+}
+/*# sourceMappingURL=style.css.map */

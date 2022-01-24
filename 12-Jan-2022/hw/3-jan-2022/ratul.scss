@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.platform{
+    width: 100%;
+    height: 500px;
+    background:blueviolet;
+    display: flex;
+    
+   
+    .line{
+          width: 90%;
+          height: 300px;
+        display: flex;
+        background: gray;
+        margin: 50px auto;
+      position: relative;
+      
+ >.car{
+        height: 100px;
+        width: 100px;
+        background: hotpink;
+        position: absolute;
+        top: 30px;
+        left: 1250px;
+        clip-path: polygon(33% 0, 100% 0%, 99% 57%, 0 57%, 0 31%);
+        transition: 3s;
+         }
+  >.cars{
+      height: 30px;
+      width: 30px;
+      background: black;
+      position: absolute;
+      top: 70px;
+      left: 1310px;
+      clip-path: circle(50% at 50% 50%);
+      transition: 3s;
+      }
+  >.card{
+    height: 30px;
+    width: 30px;
+    background: black;
+    position: absolute;
+    top: 70px;
+    left: 1265px;
+    clip-path: circle(50% at 50% 50%);
+         transition: 3s;
+      } 
+  >.cardo{
+    height: 30px;
+    width: 30px;
+    background: black;
+    position: absolute;
+    top: 70px;
+    left: 1400px;
+    clip-path: circle(50% at 50% 50%);
+         transition: 3s;
+      } 
+  >.cardw{
+    height: 30px;
+    width: 30px;
+    background: black;
+    position: absolute;
+    top: 70px;
+    left: 1500px;
+    clip-path: circle(50% at 50% 50%);
+         transition: 3s;
+      } 
+
+    &:hover div:nth-child(1){
+        left: -50px;
+        transition: 3s;
+    }
+    &:hover div:nth-child(2){
+        left: 0px;
+        transition: 3s;
+    }
+    &:hover div:nth-child(3){
+        left: -40px;
+        transition: 3s;
+    }
+    &:hover div:nth-child(4){
+        left: 80px;
+        transition: 3s;
+    }
+    &:hover div:nth-child(5){
+        left: 170px;
+        transition: 3s;
+    }
+  
+>.ropes{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    background: crimson;
+    top: 50px;
+    left: 1350px;
+    transition: 3s;
+}
+
+    >.anim{
+        width: 150px;
+        height: 70px;
+        top: 20px;
+        left: 1400px;
+        background: purple;
+        position: absolute;
+        align-items: center;
+            justify-content: center;
+      transition: 3s;
+      display: flex;
+        >span{
+            color: cyan;
+            text-transform: uppercase;
+            position: absolute;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: calc(10px + 1vw);
+            animation: gs 2s infinite linear;
+        }
+
+    }
+    &:hover div:nth-child(6){
+        left: 50px;
+        transition: 3s;
+        
+    }
+    &:hover div:nth-child(7){
+        left: 80px;
+        transition: 3s;
+        
+    }
+  }
+  
+}
+
+@keyframes gs {
+    0% {
+        color: darkgoldenrod; font-size: calc(10px + 1vw)
+    }
+    20% {color: darkgreen; font-size: calc(20px + 1vw)
+    }
+    40% {color: darkslateblue;}
+    60% {color: deeppink; }
+    80% {color: gold; }
+    100% {color: indigo; }
+
+}
+

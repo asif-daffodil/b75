@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: linear-gradient(315deg, #ffff 0%, #d7e1ec 74%);
+
+    .wrapper .button{
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        float: left;
+        margin: 0 5px;
+        background: #ffff;
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden; 
+        transition: all .3s ease-out;
+
+
+        
+
+        >span{
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 60px;
+            margin-left: 10px;
+        } 
+       
+    
+        .icon{
+           text-align: center;
+           display: inline-block;
+           height: 60px;
+           width: 60px;
+           border-radius: 50%;
+           box-sizing: border-box;
+           line-height: 60px;
+
+           >i{
+               font-size: 25px;
+               line-height: 60px;
+
+              
+
+           }
+
+        }
+
+        &:hover {
+            width: 200px;
+            transition: .3s ;
+
+        }
+
+        &:nth-child(1):hover .icon{
+            background: #4267b2;
+            color: #ffff;
+        }
+       
+        &:nth-child(2):hover .icon{
+            background: #00acee;
+            color: #ffff;
+        }
+        &:nth-child(3):hover .icon{
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+            box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+            color: #ffff;
+        }
+        
+        &:nth-child(4):hover .icon{
+            background: #25D366;
+            color: #ffff;
+        }
+        &:nth-child(5):hover .icon{
+            background: #ff0000; 
+            color: #ffff;
+        }
+        &:nth-child(6):hover .icon{
+            background: #c8232c;
+            color: #ffff;
+        }
+
+    } 
+}

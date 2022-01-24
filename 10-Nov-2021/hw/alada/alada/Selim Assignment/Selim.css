@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.selim1{
+    
+    width: 500px;
+    height: 100px;
+    background-color: black;
+}
+.selim2{
+    
+    width: 500px;
+    height: 100px;
+    background-color: red;
+}
+.selim3{
+    
+    width: 500px;
+    height: 100px;
+    background-color: yellow;
+}

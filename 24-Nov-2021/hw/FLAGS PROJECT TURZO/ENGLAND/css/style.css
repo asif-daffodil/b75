@@ -1,0 +1,30 @@
+body {
+    background: black;
+  }
+  
+  div {
+    width: 400px;
+    transform: rotate(-180deg);
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    background: linear-gradient(to bottom, #ffffff 120px, red 120px, red 130px, red 130px, red 170px, red 170px, red 163px, #ffffff 170px);
+  }
+    div:after, div:before {
+      content: "";
+      display: block;
+      position: absolute;
+    } 
+    
+  
+    div:before {
+      top: 50%;
+      transform: translateY(-50%);
+      right: 45%;
+      background: red;
+      width: 40px;
+      height: 100%;
+      z-index: 10;
+    }
+    
+  

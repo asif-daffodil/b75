@@ -1,0 +1,295 @@
+#{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image:linear-gradient(to left,rgba(142, 142, 196,0.25)23%, rgba(196, 46, 46, 0.25)25%),url(../Images/Pic-01.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    background: rgba(196, 46, 46, 0.25);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1500px;
+    height: 45px;
+    margin: auto;
+}
+
+
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo{
+    color: aqua;
+    font-size: 35px;
+    font-family: 'Courier New', Courier;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+
+.nav{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+    display: relative;
+}
+
+.snav{
+    display: none;
+    text-align: center;
+}
+
+.nav li:hover .snav{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 10px;
+    margin-left: -100px;
+}
+.nav li:hover .snav li{
+    width: 150px;
+    padding: 10px;
+    border-bottom:1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    display: block;
+    margin: 10px;
+
+}
+
+.search{
+    width: 350px;
+    float: left;
+    margin-left: 270px;
+
+}
+
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 30px;
+    color: whitesmoke;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 30px;
+    color: beige;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: .4s ease-in-out;
+}
+
+.nav li a:hover{
+    color: rgb(0, 255, 0);
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: blanchedalmond;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    font:bold;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .4s ease;
+    border-radius: 10px;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: white;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 60px;
+}
+
+.form{
+    width: 250px;
+    height: 400px;
+    background: linear-gradient(to left, rgba(2, 248, 64,.3)50%, rgba(227, 252, 2, 0.3)50%);
+    position: absolute;
+    top: -20px;
+    left: 960px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: .4s;
+
+}
+
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    text-decoration: none;
+    padding-top: 10px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #00ff40;
+    padding-top: 10px;
+}
+.liw{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+.icon ion-icon{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 0px;
+    padding-top: 5px;
+}

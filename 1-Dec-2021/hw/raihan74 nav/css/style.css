@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 800px;
+    margin: auto;
+    background: lightslategray;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    position: relative;
+}
+
+.nav li{
+    width: 100%;
+    position: relative;
+    
+}
+.nav li a{
+    text-decoration: none;
+    color: maroon;
+    line-height: 50px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: block;
+
+}
+
+.nav li:hover{
+    background-color: rgb(165, 175, 185);
+    /* background: lightgray; */
+}
+
+.hnav {
+    width: 100%;
+    background: lightslategray;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    
+}
+
+.snav {
+    width: 100%;
+    background: lightslategray;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    
+}
+.gnav {
+    width: 100%;
+    background: lightslategray;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    
+}
+.cnav {
+    width: 100%;
+    background: lightslategray;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    
+}
+.bnav {
+    width: 100%;
+    background: lightslategray;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    
+}
+
+.snav2 {
+    width: 100%;
+    background: lightslategray;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: none;
+    
+}
+.hnav2 {
+    width: 100%;
+    background: lightslategray;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: none;
+    
+}
+.rnav2 {
+    width: 100%;
+    background: lightslategray;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: none;
+    
+}
+
+.hnav3 {
+    width: 100%;
+    background: lightslategray;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: none;
+    
+}
+.hnav4 {
+    width: 100%;
+    background: lightslategray;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: none;
+    
+}
+
+.rnav3 {
+    width: 100%;
+    background: lightslategray;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: none;
+    
+}
+.rnav4 {
+    width: 100%;
+    background: lightslategray;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: none;
+    
+}.rnav5 {
+    width: 100%;
+    background: lightslategray;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: none;
+    
+}
+
+.cnav2 {
+    width: 100%;
+    background: lightslategray;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: none;
+    
+}
+
+.nav li:hover .snav{
+    display: block;
+}
+.nav li:hover .hnav{
+    display: block;
+}
+.nav li:hover .gnav{
+    display: block;
+}
+.nav li:hover .cnav{
+    display: block;
+}
+.nav li:hover .bnav{
+    display: block;
+}
+
+.snav li:hover .snav2{
+    display: block;
+}
+.hnav li:hover .hnav2{
+    display: block;
+}
+.hnav2 li:hover .hnav3{
+    display: block;
+}
+.hnav3 li:hover .hnav4{
+    display: block;
+}
+.cnav li:hover .cnav2{
+    display: block;
+}
+.hnav li:hover .rnav2{
+    display: block;
+}
+.rnav2 li:hover .rnav3{
+    display: block;
+}
+.rnav2 li:hover .rnav4{
+    display: block;
+}.rnav2 li:hover .rnav5{
+    display: block;
+}

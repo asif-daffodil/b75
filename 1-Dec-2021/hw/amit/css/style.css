@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 750px;
+    margin: 20px auto;
+    background: lightgreen;
+    list-style-position: inside;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    box-shadow: 0 -5px 10px black;
+}
+
+
+
+.nav li {
+    width: 100%;
+    position: relative;
+}
+
+.snav {
+    width: 100%;
+    background: lightgreen;
+    list-style-position: inside;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+}
+
+.snav2 {
+    width: 100%;
+    background: lightgreen;
+    list-style-position: inside;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: none;
+}
+
+.snav li:hover .snav2 {
+    display: block;
+}
+
+.nav li:hover .snav {
+    display: block;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: darkred;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px darkblue;
+    display: block;
+}
+
+.nav li::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 0%;
+    height: 5px;
+    background:black;
+    transition: 0.5s;
+}
+
+.nav li:hover::before {
+    width: 50%;
+    transition: 0.5s;
+}
+
+.nav li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    width: 0%;
+    height: 5px;
+    background:black;
+    transition: 0.5s;
+}
+
+.nav li:hover::after {
+    width: 50%;
+    transition: 0.5s;
+}

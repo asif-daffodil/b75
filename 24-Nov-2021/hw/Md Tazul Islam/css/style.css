@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ background-color: rosybrown;
+}
+
+.uk{
+    background-color: gray;
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    margin-top: 200px;
+    display: grid;
+}
+
+.redcross{
+    background-color: #CF142B;
+    display: grid;
+    grid-template-columns: 270px 270px ;
+    row-gap: 60px;
+    column-gap: 60px;
+}
+
+
+.whiteborderboxone{
+    background-color: white;
+    height: 120px;
+    width: 270px;
+}
+.whiteborderboxtwo{
+    background-color: white;
+    height: 120px;
+    width: 270px;
+}
+.whiteborderboxthree{
+    background-color: white;
+    height: 120px;
+    width: 270px;
+}
+.whiteborderboxfour{
+    background-color: white;
+    height: 120px;
+    width: 270px;
+}
+.blueboxone{
+    height: 100px;
+    width: 250px;
+    background-color:  #00247D;
+    overflow: hidden;
+    position: relative;
+}
+
+.blueboxtwo{
+    height: 100px;
+    width: 250px;
+    background-color:  #00247D;
+    overflow: hidden;
+    margin-left: 20px;
+    position: relative;
+    align-content: end;
+
+}
+.blueboxthree{
+    height: 100px;
+    width: 250px;
+    background-color:  #00247D;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+
+}
+.blueboxfour{
+    height: 100px;
+    width: 250px;
+    background-color:  #00247D;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    align-content: end;
+
+}
+.whitebandone{
+    height: 60px;
+    width: 269px;
+    background-color:white;
+    position: absolute;
+    top: -30px;
+    transform: rotate(27deg);
+    transform-origin: 0px 30px;
+    
+}
+.redbandone{
+    height: 20px;
+    width: 269px;
+    background-color: #CF142B;
+    margin-top: 30px;
+}
+
+.whitebandtwo{
+    height: 60px;
+    width: 270px;
+    background-color:white;
+    position: absolute;
+    top: -30px;
+    right: 0px;
+    
+    transform: rotate(-27deg);
+    transform-origin: 270px 30px;
+    
+    
+}
+.redbandtwo{
+    height: 20px;
+    width: 270px;
+    background-color: #CF142B;
+    margin-top: 10px;
+}
+
+.whitebandthree{
+    height: 60px;
+    width: 269px;
+    background-color:white;
+    position: absolute;
+    top: 70px;
+    transform: rotate(-27deg);
+    transform-origin: 0px 30px;
+    
+}
+
+.redbandthree{
+    height: 20px;
+    width: 269px;
+    background-color: #CF142B;
+    margin-top: 30px;
+}
+
+.whitebandfour{
+    height: 60px;
+    width: 270px;
+    background-color:white;
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    transform: rotate(27deg);
+    transform-origin: 270px 30px;
+    align-content: end;
+
+}
+.redbandfour{
+
+    height: 20px;
+    width: 270px;
+    background-color: #CF142B;
+    margin-top: 10px;
+
+
+}
+
+
+
+/* BELGIUM FLAG STYLE */
+
+.belgium{
+    background-color: gray;
+    height: 300px;
+    width: 450px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px ;
+
+}
+
+.black{
+    background-color: black;
+}
+.gold{
+    background-color: gold;
+}
+.red{
+    background-color: red;
+}
+
+
+/* ARGENTINA FLAG STYLE */
+
+.argentina{
+    background-color: gray;
+    height: 300px;
+    width: 467px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.topblue{
+    background-color: #74ACDF;
+    height: 100px;
+    width: 100%;
+}
+
+.middlewhite{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+.sun{
+    height: 75%;
+    width: 20%;
+    display: flex;
+    margin: auto;
+    
+}
+.bottomblue{
+    background-color: #74ACDF;
+    height: 100px;
+    width: 100%;
+}
+
+/* ENGLAND FLAG STYLE */
+.england{
+    background-color: gray;
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: grid;
+}
+
+
+.one{
+
+    background-color: white;
+}

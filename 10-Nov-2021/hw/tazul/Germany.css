@@ -1,0 +1,71 @@
+
+/* BODY */
+.body{
+    background-color: #F4F9F9;
+}
+
+
+/* THE FLAG */
+.background{
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+}
+
+.black{
+width: 500px;
+height: 100px;
+background-color: #0E0E10;
+}
+
+.red{
+    width: 500px;
+    height: 100px;
+    background-color: #FF0000;
+}
+
+.gold{
+    width: 500px;
+    height: 100px;
+    background-color: #FFCC00;
+}
+
+
+/* THE TABLE */
+.Flag-color{
+    margin: 20px;
+    border: 1px solid black;
+    width: 160px;
+    text-align: center;
+    background-color: gray;
+    color: whitesmoke;
+}
+
+
+/* PARAGRAPH */
+p{
+    margin: 20px;
+    color: #33313B;
+    font-family: Helvetica, sans-serif;
+}
+
+
+/* HEADINGS */
+h1{
+    color: #005792;
+}
+
+h1, h3{
+    margin-left: 20px;
+}
+
+
+/* BUTTONS */
+.btn{
+ margin-left: 20px;
+ 
+}
+
+.btn:hover{
+    background-color: indigo;
+    color: #EA168E;}

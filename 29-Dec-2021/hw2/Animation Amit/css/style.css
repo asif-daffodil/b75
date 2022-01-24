@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.pain {
+  width: 100%;
+  height: 100vh;
+  background: url("../css/images/best wallpaper.jpg") no-repeat center/auto 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pain > span {
+  margin-top: 160px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-animation: bw 2s infinite linear;
+          animation: bw 2s infinite linear;
+}
+
+@-webkit-keyframes bw {
+  0% {
+    color: white;
+    font-size: calc(16px + 1vw);
+  }
+  50% {
+    color: blue;
+    font-size: calc(22px + 1vw);
+  }
+  100% {
+    color: white;
+    font-size: calc(16px + 1vw);
+  }
+}
+
+@keyframes bw {
+  0% {
+    color: white;
+    font-size: calc(16px + 1vw);
+  }
+  50% {
+    color: blue;
+    font-size: calc(22px + 1vw);
+  }
+  100% {
+    color: white;
+    font-size: calc(16px + 1vw);
+  }
+}
+/*# sourceMappingURL=style.css.map */

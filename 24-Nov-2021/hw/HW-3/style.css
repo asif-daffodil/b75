@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background: url(./gif.gif) no-repeat center /cover;
+    position: relative;
+    top: 50px;
+    left:0;
+    transition: 1s;
+}
+
+.container::before{
+    content: 'BEL';
+    color: #fff;
+    text-align: right;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    transition: 1s;
+}
+
+
+.container::after{
+    content: 'GIUM';
+    color: #fff;
+    text-align: left ;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 50%;
+    height: 100%;
+    transition: 1s;
+}
+
+
+.container:hover::before{
+    left: -35%;
+    transition: 1s;
+}
+.container:hover::after{
+    right: -35%;
+    transition: 1s;
+}
+
+
+.bel{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 25%;
+    left: 150px;
+    background: yellow;
+    
+
+}
+.bel > div:nth-child(1) {
+    width: 100px;
+    height: 100%;
+    position: absolute auto;
+    top: 0;
+    left: 0;
+    background: #000;
+    
+    
+}
+.bel > div:nth-child(2){
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:red;
+}
+
+.box{
+    width: 600px;
+    height: 400px;
+    margin: 10% auto;
+    background: url(./gif.gif) no-repeat center /cover;
+    position: relative;
+    top: 0;
+    left:0;
+    transition: 1s;
+}
+.box .flag {
+    width: 300px;
+    height: 180px;
+    background: #6CACE4;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    
+}
+.box .flag >div{
+    width: 300px;
+    height: 55px;
+    position: absolute;
+    top: 60px;
+    left:0;
+    background: #ffff;
+}
+.box .flag .img{
+    position: absolute;
+    background: url(./sun.png) no-repeat, center center;
+    
+}
+
+
+
+.box::before{
+    content: 'ARGE';
+    color: #fff;
+    text-align: right;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    transition: 1s;
+}
+
+.box::after{
+    content: 'NTINA';
+    color: #fff;
+    text-align: left ;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 50%;
+    height: 100%;
+    transition: 1s;
+}
+.box:hover::before{
+    left: -35%;
+    transition: 1s;
+}
+.box:hover::after{
+    right: -35%;
+    transition: 1s;
+}
+
+.box2 {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    border: 5px solid #000;
+}
+
+.container .box2{
+    content: 'BEL';
+    color:#ffff;
+    text-align: right;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    transition: 1s;
+}
+
+
+
+
+
+
+.uk-flag{
+    width: 300px;
+    height: 200px;
+    background: #00247D;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    overflow: hidden;
+    
+}
+
+
+.uk-flag .w-line{
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 42%;
+    background: #ffff;
+    z-index: 1;
+    
+}
+.uk-flag .w-line .inner{
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 20%;
+    background: #CF142B;
+    
+}
+
+.uk-flag .w-line2{
+    width: 44%;
+    height: 50px;
+    position: absolute;
+    top: 38%;
+    left: 0;
+    background: #ffff;
+    z-index: 1;
+    
+}
+.uk-flag .w-line2 .inner2{
+    width: 130%;
+    height: 30px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    background: #CF142B;
+    
+}
+
+
+.uk-flag .w-line3{
+    width: 44%;
+    height: 50px;
+    position: absolute;
+    top: 38%;
+    right: 0;
+    background: #ffff;
+    overflow: hidden;
+    z-index: 1;
+}
+.uk-flag .w-line3 .inner3{
+    width: 120%;
+    height: 30px;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    background: #CF142B;
+}
+
+.uk-flag .w-line4{
+    width: 35px;
+    height: 80%;
+    position: absolute;
+    top: -40px;
+    left: 40px;
+    background: #ffff;
+    transform:rotate(-55deg);
+    
+    
+}
+.uk-flag .w-line4 .inner4{
+    width: 12px;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    background: #CF142B;  
+}
+
+.uk-flag .w-line5{
+    width: 35px;
+    height: 80%;
+    position: absolute;
+    top: -38px;
+    right: 38px;
+    background: #ffff;
+    transform:rotate(55deg);
+}
+.uk-flag .w-line5 .inner5{
+    width: 12px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    background: #CF142B;  
+}
+
+.uk-flag .w-line6{
+    width: 35px;
+    height: 80%;
+    position: absolute;
+    bottom: -40px;
+    right: 40px;
+    background: #ffff;
+    transform:rotate(120deg);
+}
+.uk-flag .w-line6 .inner6{
+    width: 12px;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    background: #CF142B;  
+}
+
+.uk-flag .w-line7{
+    width: 35px;
+    height: 80%;
+    position: absolute;
+    bottom: -36px;
+    left: 36px;
+    background: #ffff;
+    transform:rotate(-120deg);
+}
+.uk-flag .w-line7 .inner7{
+    width: 12px;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    background: #CF142B;  
+}
+
+
+
+    

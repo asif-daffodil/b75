@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin southEast ($gtc, $bg1, $bg2, $bg3) {
+    .main{
+        display: grid;
+        grid-template-columns: $gtc;
+        grid-gap: 5px;
+        padding: 5px;
+        background: linear-gradient(to top right, $bg1, $bg2, $bg3);
+        >div{
+            background: rgba(255,255,255,0.6);
+            padding: 5px;
+            border-radius: 5px;
+        }
+    }
+}
+
+@media only Screen And (min-width: 920px) {
+    @include southEast(auto auto auto auto, black, red, black)
+}
+
+@media only Screen And (min-width: 600px) And (max-width: 920px) {
+    @include southEast(auto auto, black, blue, black)
+}
+
+@media only screen And (max-width: 600px) {
+    @include southEast(auto, black, green, black)
+}
+
+.pain {
+    width: 100%;
+    height: 100vh;
+    background: url('../images/saiful.jpg') no-repeat center /auto 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >span {
+        margin-top: 160px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        animation: si 2s infinite linear;
+    }
+}
+
+@keyframes si {
+    0% {color: #fff; font-size: calc(12px + 1vw);}
+    50% {color: #0000ff; font-size: calc(22px + 1vw);}
+    100% {color: #fff; font-size: calc(12px + 1vw);}
+}
+
+// .demo {
+//     animation-name: si;
+//     animation-duration: 2s;
+//     animation-iteration-count: infinite;
+//     animation-timing-function: linear;
+// }
+
+.tf {
+    width: 100%;
+    position: relative;
+    background: cornflowerblue;
+    height: 300px;
+    margin-bottom: 100px;
+    >.c1 {
+        width: 200px;
+        height: 200px;
+        background: coral;
+        position: absolute;
+        bottom: 0;
+        left: 20px;
+        transform: translateY(-100%);
+    }
+
+    >.c2 {
+        width: 200px;
+        height: 200px;
+        background: pink;
+        position: absolute;
+        bottom: 0;
+        left: 20px;
+        transform: translateX(100%);  
+    }
+
+    >.c3 {
+        width: 200px;
+        height: 200px;
+        background: yellowgreen;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+
+    >.c4 {
+        background: hotpink;
+        position: absolute;
+        top: 50%;
+        right: 20%;
+        animation: raihan 5s infinite linear;
+        
+    }
+}
+
+@keyframes raihan {
+    0% { 
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); 
+        width: 100px;
+        height: 100px;
+    }
+    100% {
+        transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.bd {
+    width: 100%;
+    height: 150px;
+    background: #22A5F1;
+    display: flex;
+    >.dhk{
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.6);
+    }
+}

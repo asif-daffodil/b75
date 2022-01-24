@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    >nav{
+        width: 220px;
+        margin: auto;
+        >.snav{
+            list-style: none;
+            width: 100%;
+            display: flex;
+            text-align: center;
+            >li{
+                width: 40px;
+                background: #ccc;
+                margin: auto;
+                border: 1px solid darkgray;
+                border-radius: 50%;
+                position: relative;
+                overflow: hidden;
+                >a{
+                    text-decoration: none;
+                    display: block;
+                    line-height: 40px;
+                    font-size: 18px;
+                    color: #fff;
+                    position: relative;
+                    z-index: 100;
+                }
+                &::before{
+                    content: "";
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    bottom: -100%;
+                    left: 0;
+                    transition: 0.5s;
+                }
+                &:nth-child(1){
+                    &::before{
+                        background: #4867AA;
+                    }
+                }
+                &:nth-child(2){
+                    &::before{
+                        background: #5DA9DD;
+                    }
+                }
+                &:nth-child(3){
+                    &::before{
+                        background: #0077B5;
+                    }
+                }
+                &:nth-child(4){
+                    &::before{
+                        background: #B7081B;
+                    }
+                }
+                &:nth-child(5){
+                    &::before{
+                        background: #268E35;
+                    }
+                }
+                &:hover{
+                    &::before{
+                        bottom: 0;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+    }
+}

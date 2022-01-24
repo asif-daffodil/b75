@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+.red{
+    width: 300px;
+    height: 220px;
+    background: red;
+    margin: 50px auto;
+    position: relative;
+    display: flex;
+}
+.black{
+    width: 100px;
+    height: 220px;
+    background: black;
+    margin: 0px;
+}
+.yellow{
+    width: 100px;
+    height: 220px;
+    background: yellow;
+    margin:  0px 100px ;
+    position: absolute;
+}
+
+.sky{
+    width: 480px;
+    height: 300px;
+    background: skyblue;
+    margin: 20px auto;
+    position: relative;
+    display: flex;
+    /* border: solid black 1px; */
+    
+}
+.white{
+    width: 480px;
+    height: 100px;
+    /* background: white; */
+    margin: 100px auto;
+    position: absolute;
+    background: url(./sun.jpg) no-repeat white center /120px auto;
+
+}
+
+.bg{
+    width: 250px;
+    height: 150px;
+    background: white;
+    margin: 30px auto;
+    position: relative;
+    display: flex;
+    border: solid black 1px;
+}
+
+.red1{
+    width: 250px;
+    height: 30px;
+    background: red;
+    margin: 60px auto;
+    position: absolute
+}
+.red2{
+    width: 30px;
+    height: 150px;
+    background: red;
+    margin:  0px 110px ;
+    position: absolute;}
+
+
+
+    
+
+    

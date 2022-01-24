@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+.saha{
+    
+    width: 500px;
+    background: black;
+    padding: 50px;
+    margin: auto;
+    
+}
+
+
+
+.baha{
+  
+    width: 500px;
+    background: red;
+    padding: 50px;
+    margin: auto;
+   
+}
+
+.jaha{
+     width: 500px;
+    background:yellow;
+    padding: 50px;
+    margin: auto;
+   
+}
+
+
+
+   
+  
+}
+

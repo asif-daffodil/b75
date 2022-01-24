@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$tcolor : #0000ff;
+
+@mixin  childcenter($d, $j, $a) {
+    display: $d;
+    justify-content: $j;
+    align-items: $a;
+}
+
+@mixin saiful1 {
+    &::before{
+        top: 0;
+        left: 0;
+    }
+    &::after{
+        bottom: 0;
+        right: 0;
+    }
+}
+
+@mixin saiful2 {
+    &::before{
+        top: 0;
+        right: 0;
+    }
+    &::after{
+        bottom: 0;
+        left: 0;
+    }
+}
+
+.kakaml {
+    color: $tcolor;
+}
+
+.jamal {
+    color: $tcolor;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    >.pain{
+        width: 100px;
+        height: 100px;
+        background: #000;
+        margin: auto;
+        position: relative;
+        >.rain{
+            width: 100%;
+            height: 100%;
+            background: #0000ff;
+            position: absolute;
+
+            &::before, &::after {
+                content: '';
+                position: absolute;
+                background: #000;
+                width: 50%;
+                height: 50%;
+            }
+            &:nth-child(1){
+                top: -100%;
+                left: -100%;
+            }
+            &:nth-child(odd){
+                @include saiful1;
+            }
+            &:nth-child(even){
+                @include saiful2;
+            }
+            &:nth-child(2){
+                top: -100%;
+                right: -100%;
+            }
+            &:nth-child(3){
+                bottom: -100%;
+                right: -100%;
+            }
+            &:nth-child(4){
+                bottom: -100%;
+                left: -100%;
+            }
+        }
+    }
+    .bcb{
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        background: #000;
+        @include childcenter (flex, end, end);
+        .papon{
+            width: 200px;
+            height: 200px;
+            background: #0000ff;
+        }
+    }
+}
+
+.bd {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.dhk {
+    @extend .bd;
+    height: 200px;
+}
+
+.kaku {
+    background: #000;
+  }

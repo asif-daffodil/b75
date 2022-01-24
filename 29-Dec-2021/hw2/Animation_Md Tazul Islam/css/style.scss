@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// .navigation{
+//     position: fixed;
+// }
+
+nav{
+    border: 2px dashed white;
+    border-top-left-radius: 40px;
+    width: max-content;
+    margin: 6px 50%;
+    // position: fixed;
+    background-color: blueviolet;
+
+}
+
+nav:hover{
+    background-color: rgba(138, 43, 226, 0.6);
+    transition: .3s ease-in;
+}
+
+nav ul{
+    
+    // border: 1px solid rgb(175, 43, 43);
+    margin: .5rem 1rem;
+    
+    display: flex;
+    flex-direction: row;
+    // justify-items: center;
+    // justify-content: center;
+    list-style-type: square;
+    // box-shadow: 1px 5px 10px inset;
+
+    
+}
+
+nav ul li{
+    // background-color: royalblue;
+    // margin: 0 auto;
+    // border: 2px solid blue;
+    padding: .5rem .5rem;
+    margin: .5rem 1rem;
+}
+
+nav a{
+    border: 1px solid black;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    // background-color: brown;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.proclr a{
+    background-color: blue;
+    color: white;
+}
+.homclr a{
+    color: white;
+     box-shadow: 1px 1px 1px  black inset;
+}
+
+
+.animation{
+    height: 350px;
+    width: 350px;
+    background-color: #E84163;
+    margin: 100px auto 80px auto;
+    box-shadow: 1px 5px 10px inset;
+    border-bottom-right-radius: 40px;
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+    
+
+    > .frstblck{
+        padding: 15px;
+        text-shadow: 1px 1px 1px black;
+        color: white;
+        // box-shadow: 1px 5px 10px inset;
+    }
+
+    > .sndblck{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        > p{
+            // margin: 5px;
+            color: white;
+        }
+        h3{
+            // margin: 10px;
+            font-size: 2rem;
+        }
+        h2{
+            font-size: 5rem;
+        }
+        h1{
+            font-size: 7rem;
+        }
+       
+
+    }
+
+    
+}
+
+    @keyframes scalein{
+        0%{ transform: scale(.2);}
+        50%{ transform: scale(.8);}
+        100%{ transform: scale(1);}
+    }
+
+    @keyframes movedown{
+        0% { transform: translateY(-50px);}
+        50%{ transform: translateY(400px);}
+        100%{ color: transparent;}
+        // 100%{ transform: translateY(100px);}
+                                            
+    }
+    
+    
+    .sndblck h1{
+        color: white;
+        // rotate: 180deg;
+        // transform: rotate(90deg);
+        // animation-name: scalein;
+        animation-name: movedown;
+        animation-duration: 6s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+    .sndblck h2{
+        // transform: rotate(90deg);
+        // animation-name: scalein;
+        animation-name: movedown;
+        animation-duration: 5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+    .sndblck h3{
+        // transform: rotate(90deg);
+        // animation-name: scalein;
+        animation-name: movedown;
+        animation-duration: 4s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+    .sndblck h4{
+        // transform: rotate(90deg);
+        // animation-name: scalein;
+        animation-name: movedown;
+        animation-duration: 5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+    .sndblck h5{
+        // transform: rotate(90deg);
+        // animation-name: scalein;
+        animation-name: movedown;
+        animation-duration: 4s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+    .sndblck h6{
+        // transform: rotate(90deg);
+        // animation-name: scalein;
+        animation-name: movedown;
+        animation-duration: 6s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+
+
+
+.footer{
+    // border: 1px solid red;
+    width: max-content;
+    margin: 6px auto;
+    > ul{
+        list-style-type: none;
+        display: flex;
+    }
+    a{
+        border: 1px solid green;
+        text-decoration: none;
+        padding: .5rem 1rem;
+    }
+}
+
+.thanks{
+    font-size: 1.5rem;
+    color: skyblue;
+}
+
+
+
+
+
+

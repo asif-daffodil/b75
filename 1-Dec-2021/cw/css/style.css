@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main > .fb {
+  margin: auto;
+  width: 250px;
+  height: 440px;
+  position: relative;
+}
+
+.main > .fb > .front {
+  width: 100%;
+  height: 100%;
+  background: url("../images/si.jpg") center/cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  text-shadow: 2px 2px 2px #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.main > .fb > .back {
+  width: 100%;
+  height: 100%;
+  background: url("../images/p1.jpg") center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.main > .fb:hover > .back {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.main > .fb:hover > .front {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.pain {
+  width: 100%;
+  height: 100px;
+  background: -webkit-gradient(linear, left bottom, right top, from(rgba(255, 0, 0, 0.5)), to(rgba(0, 0, 255, 0.5))), url("../images/bg.jpeg") center/cover fixed;
+  background: linear-gradient(to top right, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)), url("../images/bg.jpeg") center/cover fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 48px;
+  letter-spacing: 1px;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

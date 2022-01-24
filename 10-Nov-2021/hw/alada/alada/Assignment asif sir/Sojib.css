@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sojib1{
+    
+    width: 700px;
+    height: 150px;
+    background-color: black;
+}
+.sojib2{
+    
+    width: 700px;
+    height: 150px;
+    background-color: red;
+}
+.sojib3{
+    
+    width: 700px;
+    height: 150px;
+    background-color: yellow;
+}

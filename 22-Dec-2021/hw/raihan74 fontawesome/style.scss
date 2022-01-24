@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    >nav{
+        width: 280px;
+        margin: auto;
+        >.snav{
+            list-style: none;
+            width: 100%;
+            display: flex;
+            text-align: center;
+            >li{
+                width: 40px;
+                margin: auto;
+                background: #ccc;
+                border-radius: 50%;
+                >a{
+                    text-decoration: none;
+                    display: block;
+                    line-height: 40px;
+                    font-size: 20px;
+                    color: white;
+                }
+                &:nth-child(1){
+                    &:hover{
+                        background: #4367AB;
+                    }
+                }
+                &:nth-child(2){
+                    &:hover{
+                        background: #54A6DD;
+                    }
+                }
+                &:nth-child(3){
+                    &:hover{
+                        background: #FE0000;
+                    }
+                }
+                &:nth-child(4){
+                    &:hover{
+                        background: #006CBE;
+                    }
+                }
+                &:nth-child(5){
+                    &:hover{
+                        background: #C11B20;
+                    }
+                }
+            }
+
+        }
+    }
+}

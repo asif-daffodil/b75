@@ -1,0 +1,57 @@
+body {
+    background: #000;
+  }
+  
+  div {
+    color: #5dea62;
+    font-family: Monaco, monospace;
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    animation: 120ms infinite normal glitch;
+  }
+  
+  span {
+    animation: 1.5s infinite normal imleç;
+  }
+  
+  ::-moz-selection {
+    background: #7021d2;
+    color: #fff;
+  }
+  
+  ::selection {
+    background: #7021d2;
+    color: #fff;
+  }
+  
+  @keyframes glitch {
+    0% {
+      opacity: 0;
+      left: 0;
+    }
+    40%,
+    80% {
+      opacity: 1;
+      left: -2px;
+    }
+  }
+  
+  @keyframes imleç {
+    0% {
+      opacity: 0;
+      left: 0;
+    }
+    40% {
+      opacity: 0;
+      left: -2px;
+    }
+    80% {
+      opacity: 1;
+      left: -2px;
+    }
+  }
+  

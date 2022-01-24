@@ -1,0 +1,30 @@
+#flag {
+    width: 520px;
+    height: 320px;
+    background: black;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+  }
+  
+  #flag:after {
+    width: 500px;
+    height: 300px;
+    background: linear-gradient(#A8E9FF, #57CFF7);
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: 10px;
+  }
+  
+  #middle {
+    width: 500px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    top: 310px;
+    left: 410px;
+  }
+  
+  
+  

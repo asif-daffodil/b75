@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #E6CCA9;
+}
+
+
+.heroheroin {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    margin: auto;
+    background-image: url(../photos/Hero_Alam.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.heroin {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    position: absolute;
+}
+
+/* heroine names */
+.hemalom {
+    position: absolute;
+    top: 50px;
+    left: -150px;
+    color: #E6CCA9;
+}
+
+.stonealom {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    color: #E6CCA9;
+}
+
+.Vaijontialom {
+    position: absolute;
+    left: -150px;
+    top: 50px;
+    color: #E6CCA9;
+
+}
+
+.tanujalom {
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    color: #E6CCA9;
+}
+
+/* heroines */
+
+.heroin:nth-child(1) {
+    background-image: url(../photos/hema.jpg);
+    background-size: 100%;
+    top: 0;
+    left: -150px;
+
+}
+
+.heroin:nth-child(2) {
+    background-image: url(../photos/sharon\ stone.jpg);
+    background-size: 100%;
+    top: 0;
+    right: -150px;
+}
+
+.heroin:nth-child(3) {
+    background-image: url(../photos/Vaijenthimala.jpg);
+    background-size: 100%;
+    bottom: 0;
+    left: -150px;
+}
+
+.heroin:nth-child(4) {
+    background-image: url(../photos/Tanuja.jpg);
+    background-size: 100%;
+    bottom: 0;
+    right: -150px;
+
+}
+
+/* heroine names hover */
+
+.heroin:nth-child(1):hover .hemalom {
+
+    top: 50px;
+    left: -150px;
+    color: rgb(69, 70, 172);
+    font-size: 28px;
+    font-family: 'Sacramento', cursive;
+    transition: 1s;
+
+}
+
+.heroin:nth-child(1):hover {
+
+    animation-name: rotateback;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+}
+
+
+.heroin:nth-child(2):hover .stonealom {
+
+    color: rgb(69, 70, 172);
+    font-size: 28px;
+    font-family: 'Sacramento', cursive;
+    transition: .5s;
+}
+
+.heroin:nth-child(3):hover .Vaijontialom {
+
+    color: rgb(69, 70, 172);
+    font-size: 28px;
+    font-family: 'Sacramento', cursive;
+    transition: 0.5s;
+
+}
+
+.heroin:nth-child(4):hover .tanujalom {
+
+    color: rgb(69, 70, 172);
+    font-size: 28px;
+    font-family: 'Sacramento', cursive;
+    transition: 0.5s;
+}
+
+/* heroalom hover */
+.heroheroin:hover .heroin:nth-child(1) {
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+
+}
+
+.heroheroin:hover .heroin:nth-child(2) {
+    top: 0;
+    right: 0;
+    transition: 1s;
+}
+
+.heroheroin:hover .heroin:nth-child(3) {
+
+    bottom: 0;
+    left: 0;
+    transition: 1s;
+}
+
+.heroheroin:hover .heroin:nth-child(4) {
+
+    bottom: 0;
+    right: 0;
+    transition: 0.5s;
+}
+
+
+.aboutheroalom {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 280px;
+    padding-right: 270px;
+}
+
+.NEWS {
+    margin-left: 380px;
+    margin-bottom: 10px;
+    margin-right: 370px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: goldenrod;
+    color: white;
+    display: inline-block;
+    box-shadow: 5px 5px 5px tomato;
+    animation-name: scalein;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+
+}
+
+
+button {
+    background-color: rgb(194, 120, 240);
+    padding: 4px 10px 4px 10px;
+    border: 1px solid rgb(255, 254, 254);
+    transition: background .3s ease-in,
+        transform .2s .1s ease-in-out,
+        border-radius .3s ease-in;
+
+}
+
+button:hover {
+    transform: scale(1.15);
+    background-color: rgb(136, 65, 228);
+    border-radius: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(54, 53, 53);
+}
+
+h2 {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(255, 255, 255);
+    background-color: tomato;
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.forclippath {
+    height: 48px;
+    width: 48px;
+    margin-top: 5px;
+    margin-left: 380px;
+    background-color: hotpink;
+    clip-path: polygon(91% 69%, 100% 0, 100% 100%, 55% 60%, 20% 100%, 0 100%, 0 0);
+}
+
+
+.heroname {
+    color: tomato;
+    background-color: whitesmoke;
+    padding: 0 10px 0 10px;
+}
+
+@keyframes scalein {
+    0% {
+        transform: scale(.2);
+    }
+
+    85% {
+        transform: scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes rotateback {
+    0% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-15deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}

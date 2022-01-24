@@ -1,0 +1,23 @@
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+
+.carousel-control-next:hover, .carousel-control-prev:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-item > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.khairul-bashar-dark {
+  background: rgba(0, 0, 0, 0.6);
+}
+/*# sourceMappingURL=style.css.map */

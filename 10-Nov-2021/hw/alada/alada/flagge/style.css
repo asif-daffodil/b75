@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 500px;
+    height: 300px;
+    background: red;
+    margin: 50px auto ;
+
+}
+.up {
+    width: 500px;
+    height: 100px;
+    background: black;
+    margin:  auto ;
+}
+
+.gold {
+    width: 500px;
+    height: 100px;
+    background: gold;
+    margin: 100px auto ;
+
+}

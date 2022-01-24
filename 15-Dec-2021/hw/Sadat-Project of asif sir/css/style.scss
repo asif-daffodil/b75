@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1d2e41;
+    .container {
+        width: 620px;
+        height: 1998px;
+        margin: auto;
+        >.heading-top {
+            width: 100%;
+            line-height: 32px;
+            background: #283b46;
+            font-size: 11px;
+            
+        } 
+    }
+}
