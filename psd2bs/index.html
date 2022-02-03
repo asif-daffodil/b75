@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <!-- bootstrap css -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+  />
+
+  <!-- bootstrap icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+  />
+
+  <!-- main css file -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <body>
+    <!-- header part -->
+    <header>
+      <!-- nav bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white py-o py-md-4">
+        <div class="container">
+          <a class="navbar-brand poppins fw-bold" href="#"> Senakunja </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active poppins fw-normal"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link poppins fw-normal" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link poppins fw-normal" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link poppins fw-normal" href="#">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- end of nav -->
+
+      <!-- slider starting -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <!-- slide -1 -->
+          <div class="carousel-item active">
+            <img src="./images/slide1.jpg " class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-block">
+              <h1 class="text-uppercase poppins">wedding ceremonies</h1>
+              <p class="poppins fw-light">
+                Senakunja is the official auditoriam / convention centre of<br />
+                Bangladesh Armed Forces and is located in Dhaka Cantonment.
+              </p>
+              <a
+                href="https://www.zend-zce.com/en/yellow-pages/ZEND032664"
+                class="btn btn-lg btn-light btn-outline-primary border-0 px-5 py-2 poppins fw-bold fs-6 mb-4"
+                target="_blank"
+              >
+                Book Now
+              </a>
+            </div>
+          </div>
+          <!-- slide 2 -->
+          <div class="carousel-item">
+            <img src="./images/slide2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-block">
+              <h1 class="text-uppercase poppins">birthday parties</h1>
+              <p class="poppins fw-light">
+                The venue holds official events of Bangladesh Armed Forces.
+                <br />
+                as well as used for wedding ceremonies and other social
+                gatherings.
+              </p>
+              <a
+                href="https://www.facebook.com/abir.upwork/"
+                class="btn btn-lg btn-light btn-outline-primary border-0 px-5 py-2 poppins fw-bold fs-6 mb-4"
+                target="_blank"
+              >
+                Book Now
+              </a>
+            </div>
+          </div>
+          <!-- slide 3 -->
+          <div class="carousel-item">
+            <img src="./images/slide3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-block">
+              <h1 class="text-uppercase poppins">social gatherings</h1>
+              <p class="poppins fw-light">
+                The venue also holds an annual Iftar party hosted by
+                <br />Bangladesh Armed Forces and attended by the elite of
+                Bangladesh.
+              </p>
+              <a
+                href="https://www.linkedin.com/in/asifabir/"
+                class="btn btn-lg btn-light btn-outline-primary border-0 px-5 py-2 poppins fw-bold fs-6 mb-4"
+                target="_blank"
+              >
+                Book Now
+              </a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- slider ending -->
+    </header>
+    <!-- end of header -->
+
+    <!-- main contents -->
+    <main class="container mt-5">
+      <!-- Precious-moment -->
+      <div class="row">
+        <div class="col-12">
+          <div class="card mb-3 border-0">
+            <div class="row g-2">
+              <div class="col-md-6">
+                <img
+                  src="./images/Precious-moment.jpg"
+                  class="img-fluid rounded h-100"
+                  alt="Precious-moment"
+                  style="object-fit: cover"
+                />
+              </div>
+              <div class="col-md-6 d-flex align-items-center">
+                <div
+                  class="card-body d-flex flex-column align-items-start justify-content-around"
+                >
+                  <h2 class="card-title poppins display-6">
+                    Every moment is Precious
+                  </h2>
+                  <p class="card-text poppins py-2">
+                    Life can be unpredictable but we must learn to stop and
+                    smell the roses every once in a while. Life isn’t always
+                    easy and the grass on the other side can look greener. We
+                    often fail to appreciate the best moments while chasing
+                    after greener pastures.
+                  </p>
+                  <a
+                    href="https://dti.ac/instructor/asif-mohammad-abir/"
+                    target="_blank"
+                    class="btn btn-lg btn-primary border-0 poppins fw-bold px-5 fs-6"
+                  >
+                    Photo Gallery
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Precious-moment -->
+
+      <!-- Our package -->
+      <div class="row mt-5">
+        <div class="col-md-12 h1 poppins text-center">Our package</div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 mt-4">
+        <div class="card border-0 py-5">
+          <div class="card-header roboto border-0 py-0 bg-white">
+            <h2>$1000</h2>
+            <h3>Birthday Party</h3>
+            <p class="poppins text-secondary">
+              For birthday event like cake, stage, music, foods etc.
+            </p>
+          </div>
+          <div class="card-body py-0">
+            <ul class="list-group d-flex flex-column p-0">
+              <li
+                class="list-group-item d-flex border-0 p-0 text-secondary w-100 poppins"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 p-0"></i>
+                </span>
+                limited space access
+              </li>
+              <li
+                class="list-group-item d-flex border-0 p-0 text-secondary w-100 poppins"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 p-0"></i>
+                </span>
+                Secuirty facility
+              </li>
+              <li
+                class="list-group-item d-flex border-0 p-0 text-secondary w-100 poppins"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 p-0"></i>
+                </span>
+                event support
+              </li>
+              <li
+                class="list-group-item d-flex border-0 p-0 text-secondary w-100 poppins"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 p-0"></i>
+                </span>
+                Decoration design
+              </li>
+              <li
+                class="list-group-item d-flex border-0 p-0 text-secondary w-100 poppins"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 alert p-0"></i>
+                </span>
+                Per day bill
+              </li>
+            </ul>
+          </div>
+          <div class="card-footer border-0 bg-white">
+            <a
+              href="https://www.upwork.com/freelancers/~01d8c7c9208ab24253"
+              target="_blank"
+              class="btn d-block btn-outline-primary border-0 m-auto poppins fs-6 rounded-pill"
+            >
+              Choose Plan
+            </a>
+          </div>
+        </div>
+        <div class="card border-0 py-5">
+          <div class="card-header roboto border-0 py-0 bg-white">
+            <h2>$1200</h2>
+            <h3>Business Fair</h3>
+            <p class="poppins text-secondary">
+              For most businesses event like book fair, craft fair.
+            </p>
+          </div>
+          <div class="card-body py-0">
+            <ul class="list-group d-flex flex-column p-0">
+              <li
+                class="list-group-item d-flex border-0 p-0 text-secondary w-100 poppins"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 p-0"></i>
+                </span>
+                limited space access
+              </li>
+              <li
+                class="list-group-item d-flex border-0 p-0 text-secondary w-100 poppins"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 p-0"></i>
+                </span>
+                Secuirty facility
+              </li>
+              <li
+                class="list-group-item d-flex border-0 p-0 text-secondary w-100 poppins"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 p-0"></i>
+                </span>
+                event support
+              </li>
+              <li
+                class="list-group-item d-flex border-0 p-0 text-secondary w-100 poppins"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 p-0"></i>
+                </span>
+                Decoration design
+              </li>
+              <li
+                class="list-group-item d-flex border-0 p-0 text-secondary w-100 poppins"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 alert p-0"></i>
+                </span>
+                Per day bill
+              </li>
+            </ul>
+          </div>
+          <div class="card-footer border-0 bg-white">
+            <a
+              href="https://www.upwork.com/freelancers/~01d8c7c9208ab24253"
+              target="_blank"
+              class="btn d-block btn-outline-primary border-0 m-auto poppins fs-6 rounded-pill"
+            >
+              Choose Plan
+            </a>
+          </div>
+        </div>
+        <div
+          class="card border-0 bg-primary text-white py-5 position-relative special-offer"
+        >
+          <span
+            class="d-block roboto text-white bg-danger px-3 rounded-pill position-absolute top-0 end-0 translate-middle"
+            >Hot</span
+          >
+          <div class="card-header roboto border-0 py-0">
+            <h2>$1500</h2>
+            <h3>Wedding plus</h3>
+            <p class="poppins">For most weddings with premium plans</p>
+          </div>
+          <div class="card-body py-0">
+            <ul class="list-group d-flex flex-column p-0">
+              <li
+                class="list-group-item d-flex border-0 p-0 w-100 poppins bg-transparent text-white"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 p-0"></i>
+                </span>
+                limited space access
+              </li>
+              <li
+                class="list-group-item d-flex border-0 p-0 w-100 poppins bg-transparent text-white"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 p-0"></i>
+                </span>
+                Secuirty facility
+              </li>
+              <li
+                class="list-group-item d-flex border-0 p-0 w-100 poppins bg-transparent text-white"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 p-0"></i>
+                </span>
+                event support
+              </li>
+              <li
+                class="list-group-item d-flex border-0 p-0 w-100 poppins bg-transparent text-white"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 p-0"></i>
+                </span>
+                Decoration design
+              </li>
+              <li
+                class="list-group-item d-flex border-0 p-0 w-100 poppins bg-transparent text-white"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 alert p-0"></i>
+                </span>
+                Per day bill
+              </li>
+            </ul>
+          </div>
+          <div class="card-footer border-0">
+            <a
+              href="https://www.upwork.com/freelancers/~01d8c7c9208ab24253"
+              target="_blank"
+              class="btn d-block btn-light btn-outline-primary border-0 m-auto poppins fs-6 rounded-pill rounded-pill"
+            >
+              Choose Plan
+            </a>
+          </div>
+        </div>
+        <div class="card border-0 py-5">
+          <div class="card-header roboto border-0 py-0 bg-white">
+            <h2>$2000</h2>
+            <h3>Corporate event</h3>
+            <p class="poppins text-secondary">
+              For most corporate business events
+            </p>
+          </div>
+          <div class="card-body py-0">
+            <ul class="list-group d-flex flex-column p-0">
+              <li
+                class="list-group-item d-flex border-0 p-0 text-secondary w-100 poppins"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 p-0"></i>
+                </span>
+                limited space access
+              </li>
+              <li
+                class="list-group-item d-flex border-0 p-0 text-secondary w-100 poppins"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 p-0"></i>
+                </span>
+                Secuirty facility
+              </li>
+              <li
+                class="list-group-item d-flex border-0 p-0 text-secondary w-100 poppins"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 p-0"></i>
+                </span>
+                event support
+              </li>
+              <li
+                class="list-group-item d-flex border-0 p-0 text-secondary w-100 poppins"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 p-0"></i>
+                </span>
+                Decoration design
+              </li>
+              <li
+                class="list-group-item d-flex border-0 p-0 text-secondary w-100 poppins"
+              >
+                <span
+                  class="d-inline-block me-2 rounded-circle alert alert-primary p-0 text-center"
+                >
+                  <i class="bi bi-check2 alert p-0"></i>
+                </span>
+                Per day bill
+              </li>
+            </ul>
+          </div>
+          <div class="card-footer border-0 bg-white">
+            <a
+              href="https://www.upwork.com/freelancers/~01d8c7c9208ab24253"
+              target="_blank"
+              class="btn d-block btn-outline-primary border-0 m-auto poppins fs-6 rounded-pill"
+            >
+              Choose Plan
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- end of Our package -->
+
+      <!-- happy clients -->
+      <div class="row mt-5">
+        <div class="col-md-12 h1 poppins text-center">Happy Clients says</div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 mt-3 g-0">
+        <div class="p-3 rounded">
+          <div class="text-secondary poppins text-center shadow-lg py-4">
+            <p>
+              Shenakunja is one of the best place in Bangladesh to arrange
+              events on merrage ceremony.
+            </p>
+            <img
+              src="./images/porimoni.jpg"
+              alt=""
+              class="img-fluid rounded-circle"
+              style="max-width: 100px"
+            />
+            <p class="h6 text-dark my-0 mt-4">Pori Moni</p>
+            <p class="h6 my-0">Actress</p>
+          </div>
+        </div>
+        <div class="p-3 rounded">
+          <div class="text-secondary poppins text-center shadow-lg py-4">
+            <p>
+              If you don't arrange your wedding ceremony in senakunja, you will
+              get divorced!
+            </p>
+            <img
+              src="./images/jm.jpg"
+              alt=""
+              class="img-fluid rounded-circle"
+              style="max-width: 100px"
+            />
+            <p class="h6 text-dark my-0 mt-4">Jhonkar Mahabub</p>
+            <p class="h6 my-0">Programmer</p>
+          </div>
+        </div>
+        <div class="p-3 rounded">
+          <div class="text-secondary poppins text-center shadow-lg py-4">
+            <p>
+              Shenakunja is one of the best place in Bangladesh to arrange
+              events on merrage ceremony.
+            </p>
+            <img
+              src="./images/mithila.jpg"
+              alt=""
+              class="img-fluid rounded-circle"
+              style="max-width: 100px"
+            />
+            <p class="h6 text-dark my-0 mt-4">Mithila</p>
+            <p class="h6 my-0">Actress</p>
+          </div>
+        </div>
+      </div>
+      <!-- end of happy clients -->
+
+      <!-- FAQ -->
+      <div class="row mt-5">
+        <div class="col-md-12 h1 poppins text-center">
+          Frequently Asked Questions
+        </div>
+      </div>
+      <div
+        class="row row-cols-1 row-cols-md-2 mt-3 gx-5 d-flex flex-column flex-md-row flex-column-reverse"
+      >
+        <!-- accordions -->
+        <div
+          class="accordion d-flex flex-column justify-content-center"
+          id="accordionExample"
+        >
+          <div class="accordion-item mb-2 border poppins">
+            <h2 class="accordion-header bg-white" id="headingOne">
+              <button
+                class="accordion-button bg-white text-dark"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                What is Senakunja ?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body text-secondary pt-0">
+                Senakunja – a spectacular world class Convention Hall, located
+                at the heart of Dhaka Cantonment, is on the western side of
+                Naval Headquarters on Airport Road and just opposite of
+                SENAMALANCHA. This is an exclusive venue where your dream for a
+                grand celebration comes into reality. Social or corporate
+                gathering will find the most spacious place with a secured
+                atmosphere.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-2 border poppins">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed bg-white text-dark"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                What is the size of Senakunja?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body text-secondary pt-0">
+                Aesthetically designed this Convention Hall is ready to host
+                2000 (with dining capacity of 500 guests at a time) guests.
+                Satisfaction of the guests is guaranteed by the mouth- watering
+                dishes prepared by a group of specialized catering service
+                provider
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-2 border poppins">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed bg-white text-dark"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Where is Senakunja?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body text-secondary pt-0">
+                Senakunja – a spectacular world class Convention Hall, located
+                at the heart of Dhaka Cantonment, is on the western side of
+                Naval Headquarters on Airport Road and just opposite of
+                SENAMALANCHA. This is an exclusive venue where your dream for a
+                grand celebration comes into reality. Social or corporate
+                gathering will find the most spacious place with a secured
+                atmosphere.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-2 border poppins">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed bg-white text-dark"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Why Senakunja?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body text-secondary pt-0 pt-0">
+                Exceptional hospitality offered by a highly professional team of
+                Management will create an unforgettable memory in your mind.
+                Special Features of Senakunja are: Central Air-Condition |
+                Architectural sound system | Luxurious fountain | Modern cook
+                house | Open space environment | Separate washroom for ladies
+                and gents | Spacious car parking facility | Uninterrupted
+                electricity and Generator facility | 24/7 online booking
+                facility | Stage with Wedding Chair for Bride and Groom.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of accordions -->
+        <div class="d-flex justify-content-center align-items-center">
+          <img src="./images/faq.jpg" alt="" class="img-fluid" />
+        </div>
+      </div>
+      <!-- End of FAQ -->
+
+      <!-- my section  -->
+      <div class="row">
+        <div
+          class="col-md-6 m-auto mt-5 my-3 shadow poppins border rounded py-5 px-4"
+        >
+          <h1 class="text-center mb-4">Contact Us</h1>
+          <form action="">
+            <div class="form-floating mb-3">
+              <input type="text" placeholder="Your Name" class="form-control" />
+              <label for="" class="form-label">Your Name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                placeholder="Your Email"
+                class="form-control"
+              />
+              <label for="" class="form-label">Your Email</label>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea
+                style="min-height: 140px"
+                class="form-control"
+                placeholder="Your Meassge"
+              ></textarea>
+              <label for="" class="form-label">Your Meassge</label>
+            </div>
+            <input
+              type="submit"
+              value="Send Message"
+              class="btn btn-lg btn-primary"
+            />
+          </form>
+        </div>
+      </div>
+      <!-- end my section  -->
+    </main>
+    <!-- end of main contents -->
+
+    <!-- footer -->
+    <footer class="container-fluid mt-5 bg-black">
+      <div class="container">
+        <div
+          class="row py-5 d-flex flex-column flex-md-row flex-column-reverse"
+        >
+          <div
+            class="col-md-6 manrope text-white fw-lighter d-flex justify-content-start align-items-center mt-3 mt-md-0"
+          >
+            &copy; 2021 |
+            <a
+              href="https://www.zend-zce.com/en/yellow-pages/ZEND032664"
+              class="text-white text-decoration-none"
+            >
+              &nbsp; Asif Abir &nbsp;
+            </a>
+            | All rights reserved
+          </div>
+          <div
+            class="col-md-6 manrope text-white fw-normal d-flex flex-column align-items-start align-items-md-end justify-content-center"
+          >
+            <div class="d-flex flex-column justify-content-evenly">
+              Get the App
+              <a
+                href="https://apps.apple.com/us/app/clash-of-clans/id529479190"
+                target="_blank"
+              >
+                <img
+                  src="./images/App_Store_Badge.png"
+                  alt=""
+                  class="img-fluid ag-store my-3"
+                />
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.supercell.clashofclans&hl=en&gl=US"
+                target="_blank"
+              >
+                <img
+                  src="./images/google-play.png"
+                  alt=""
+                  class="img-fluid ag-store"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- alert -->
+    <div
+      class="position-fixed top-50 end-0 translate-middle bg-white pr-4 py-2 alert alert-dismissible rounded-0 offer-alert shadow-lg"
+    >
+      <button
+        class="btn-close position-absolute top-50 end-0 translate-middle-y"
+        data-bs-dismiss="alert"
+      ></button>
+      <i class="bi bi-gift text-primary"></i>
+      20% off on next booking
+    </div>
+    <!-- end alert -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

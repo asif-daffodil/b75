@@ -1,0 +1,58 @@
+/******************** 
+Import google fonts 
+*********************/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@400;500&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@700&display=swap");
+
+/********************
+declare font classes 
+**********************/
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+.manrope {
+  font-family: "Manrope", sans-serif;
+}
+
+.carousel-item > img {
+  min-height: 60vh;
+  object-fit: cover;
+}
+
+.list-group-item > span {
+  width: 20px;
+  height: 20px;
+}
+
+.special-offer {
+  background: url("../images/watermark.svg") no-repeat 120% 10% / 50% 150%;
+  border-radius: 12px;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 transparent;
+  border-color: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 0 0 transparent;
+}
+
+.ag-store {
+  max-width: 135px;
+}
+
+.offer-alert {
+  z-index: 100;
+  border-left: 10px solid #3f87f5;
+}
